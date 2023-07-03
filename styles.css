@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+  
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+  /* Style the form */
+#survey-form {
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+  
+  /* Style the labels */
+label {
+    display: block;
+    margin: 10px 0px 10px 0px;
+    justify-content: space-evenly;
+}
+  
+.checkbox{
+    padding: 0;
+}
+  /* Style the input, select, and textarea elements */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 10px 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+
+  /* Style the submit button */
+#submit {
+    text-align: center;
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+  
+  /* Add hover effect to the submit button */
+#submit:hover {
+    background-color: #45a049;
+}
